@@ -1,0 +1,9 @@
+﻿@page "{id}"
+@model Pex.ProfileModel
+@{
+    var id = long.Parse((string)RouteData.Values["id"]);
+    ViewData["Title"] = "Profile";
+}
+
+<h1>Profile</h1>
+
